@@ -6,13 +6,13 @@
  * @category TopClientFactory
  * @package  RetailCrm\Factory
  */
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
-use RetailCrm\Builder\ContainerBuilder;
-use RetailCrm\Builder\TopClientBuilder;
-use RetailCrm\Component\AppData;
-use RetailCrm\Component\Authenticator\TokenAuthenticator;
-use RetailCrm\TopClient\TopClient;
+use GeticRetailCrm\Builder\ContainerBuilder;
+use GeticRetailCrm\Builder\TopClientBuilder;
+use GeticRetailCrm\Component\AppData;
+use GeticRetailCrm\Component\Authenticator\TokenAuthenticator;
+use GeticRetailCrm\TopClient\TopClient;
 
 /**
  * Class TopClientFactory

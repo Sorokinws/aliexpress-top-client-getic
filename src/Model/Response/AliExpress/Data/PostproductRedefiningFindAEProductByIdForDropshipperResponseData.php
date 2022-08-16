@@ -6,10 +6,10 @@
  * @package  RetailCrm\Model\Response\AliExpress\Data
  */
 
-namespace RetailCrm\Model\Response\AliExpress\Data;
+namespace GeticRetailCrm\Model\Response\AliExpress\Data;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Response\AliExpress\Result\PostproductRedefiningFindAEProductByIdForDropshipperResponseResult;
+use GeticRetailCrm\Model\Response\AliExpress\Result\PostproductRedefiningFindAEProductByIdForDropshipperResponseResult;
 
 /**
  * Class PostproductRedefiningFindAEProductByIdForDropshipperResponseData

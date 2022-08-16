@@ -6,10 +6,10 @@
  * @package  RetailCrm\Model\Request\AliExpress\Data
  */
 
-namespace RetailCrm\Model\Request\AliExpress\Data;
+namespace GeticRetailCrm\Model\Request\AliExpress\Data;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Interfaces\RequestDtoInterface;
+use GeticRetailCrm\Interfaces\RequestDtoInterface;
 
 /**
  * Class FeedPricesUpdateDto

@@ -6,9 +6,9 @@
  * @package  RetailCrm\Model\Response\AliExpress\Data
  */
 
-namespace RetailCrm\Model\Response\AliExpress\Data;
+namespace GeticRetailCrm\Model\Response\AliExpress\Data;
 
-use RetailCrm\Model\Entity\CategoryInfo;
+use GeticRetailCrm\Model\Entity\CategoryInfo;
 use JMS\Serializer\Annotation as JMS;
 
 /**

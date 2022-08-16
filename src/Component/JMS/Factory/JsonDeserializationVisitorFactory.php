@@ -6,9 +6,9 @@
  * @package  RetailCrm\Component\JMS\Factory
  */
 
-namespace RetailCrm\Component\JMS\Factory;
+namespace GeticRetailCrm\Component\JMS\Factory;
 
-use RetailCrm\Component\JMS\Visitor\Deserialization\JsonDeserializationVisitor;
+use GeticRetailCrm\Component\JMS\Visitor\Deserialization\JsonDeserializationVisitor;
 use JMS\Serializer\Visitor\DeserializationVisitorInterface;
 use JMS\Serializer\Visitor\Factory\DeserializationVisitorFactory;
 

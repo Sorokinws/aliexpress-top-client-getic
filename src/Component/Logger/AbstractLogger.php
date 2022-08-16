@@ -6,7 +6,7 @@
  * @category AbstractLogger
  * @package  RetailCrm\Component\Logger
  */
-namespace RetailCrm\Component\Logger;
+namespace GeticRetailCrm\Component\Logger;
 
 use Psr\Log\AbstractLogger as BaseAbstractLogger;
 

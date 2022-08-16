@@ -6,13 +6,13 @@
  * @category ServiceLocator
  * @package  RetailCrm\Component
  */
-namespace RetailCrm\Component;
+namespace GeticRetailCrm\Component;
 
-use RetailCrm\Factory\FileItemFactory;
-use RetailCrm\Factory\OAuthTokenFetcherFactory;
-use RetailCrm\Interfaces\ContainerAwareInterface;
-use RetailCrm\Interfaces\FileItemFactoryInterface;
-use RetailCrm\Traits\ContainerAwareTrait;
+use GeticRetailCrm\Factory\FileItemFactory;
+use GeticRetailCrm\Factory\OAuthTokenFetcherFactory;
+use GeticRetailCrm\Interfaces\ContainerAwareInterface;
+use GeticRetailCrm\Interfaces\FileItemFactoryInterface;
+use GeticRetailCrm\Traits\ContainerAwareTrait;
 
 /**
  * Class ServiceLocator

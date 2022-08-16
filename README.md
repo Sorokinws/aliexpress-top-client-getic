@@ -15,8 +15,8 @@ Details about those third-party libraries and why you need to install them can b
 
 2. Instantiate client using `TopClientFactory`:
 ```php
-use RetailCrm\Component\AppData;
-use RetailCrm\Factory\TopClientFactory;
+use GeticRetailCrm\Component\AppData;
+use GeticRetailCrm\Factory\TopClientFactory;
 
 $client = TopClientFactory::createClient(
     AppData::OVERSEAS_ENDPOINT,
@@ -29,7 +29,7 @@ $client = TopClientFactory::createClient(
 3. Create and fill request data. All requests and responses use the same naming: part of the namespace is the first word in the request name, and everything else is in the request DTO class name. Requests live under `RetailCrm\Model\Request` namespace, and responses can be found in the `RetailCrm\Model\Response` namespace.
 Let's use `taobao.httpdns.get` request as an example. It's first word is the `taobao`, so, this request can be found under `RetailCrm\Model\Request\Taobao` namespace, and it's class name is `HttpDnsGetRequest`. You can instantiate it with this code:
 ```php
-use RetailCrm\Model\Request\Taobao\HttpDnsGetRequest;
+use GeticRetailCrm\Model\Request\Taobao\HttpDnsGetRequest;
 
 $request = new HttpDnsGetRequest();
 ```
@@ -46,13 +46,13 @@ This particular request doesn't require authorization, so, it can be sent via `T
 This library uses Container pattern under the hood. You can pass additional dependencies using `ContainerBuilder`. For example:
 ```php
 use Http\Client\Curl\Client;
-use RetailCrm\Component\AppData;
-use RetailCrm\Component\Environment;
+use GeticRetailCrm\Component\AppData;
+use GeticRetailCrm\Component\Environment;
 use Nyholm\Psr7\Factory\Psr17Factory;
-use RetailCrm\Builder\TopClientBuilder;
-use RetailCrm\Builder\ContainerBuilder;
-use RetailCrm\Component\Logger\StdoutLogger;
-use RetailCrm\Component\Authenticator\TokenAuthenticator;
+use GeticRetailCrm\Builder\TopClientBuilder;
+use GeticRetailCrm\Builder\ContainerBuilder;
+use GeticRetailCrm\Component\Logger\StdoutLogger;
+use GeticRetailCrm\Component\Authenticator\TokenAuthenticator;
 
 $client = new Client();
 $logger = new StdoutLogger();
@@ -77,10 +77,10 @@ You can use your own container if you want to - it must be compliant to PSR-11. 
 
 The simplest example of client initialization without using `TopClientFactory` looks like this:
 ```php
-use RetailCrm\Component\AppData;
-use RetailCrm\Builder\TopClientBuilder;
-use RetailCrm\Builder\ContainerBuilder;
-use RetailCrm\Component\Authenticator\TokenAuthenticator;
+use GeticRetailCrm\Component\AppData;
+use GeticRetailCrm\Builder\TopClientBuilder;
+use GeticRetailCrm\Builder\ContainerBuilder;
+use GeticRetailCrm\Component\Authenticator\TokenAuthenticator;
 
 $appData = new AppData(AppData::OVERSEAS_ENDPOINT, 'appKey', 'appSecret');
 $client = TopClientBuilder::create()

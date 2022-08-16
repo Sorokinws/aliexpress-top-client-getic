@@ -6,7 +6,7 @@
  * @package  RetailCrm\Model\Response\AliExpress\Result\Interfaces
  */
 
-namespace RetailCrm\Model\Response\AliExpress\Result\Interfaces;
+namespace GeticRetailCrm\Model\Response\AliExpress\Result\Interfaces;
 
 /**
  * Interface ErrorInterface. Should be used with ErrorTrait.

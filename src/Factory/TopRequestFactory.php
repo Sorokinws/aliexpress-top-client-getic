@@ -6,7 +6,7 @@
  * @category TopRequestFactory
  * @package  RetailCrm\Factory
  */
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
 use Http\Message\MultipartStream\MultipartStreamBuilder;
 use JMS\Serializer\SerializerInterface;
@@ -14,16 +14,16 @@ use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\UriFactoryInterface;
-use RetailCrm\Component\Exception\FactoryException;
-use RetailCrm\Component\Exception\NotImplementedException;
-use RetailCrm\Interfaces\AppDataInterface;
-use RetailCrm\Interfaces\FileItemInterface;
-use RetailCrm\Interfaces\RequestSignerInterface;
-use RetailCrm\Interfaces\RequestTimestampProviderInterface;
-use RetailCrm\Interfaces\TopRequestFactoryInterface;
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Service\RequestDataFilter;
-use RetailCrm\Service\TopRequestProcessor;
+use GeticRetailCrm\Component\Exception\FactoryException;
+use GeticRetailCrm\Component\Exception\NotImplementedException;
+use GeticRetailCrm\Interfaces\AppDataInterface;
+use GeticRetailCrm\Interfaces\FileItemInterface;
+use GeticRetailCrm\Interfaces\RequestSignerInterface;
+use GeticRetailCrm\Interfaces\RequestTimestampProviderInterface;
+use GeticRetailCrm\Interfaces\TopRequestFactoryInterface;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Service\RequestDataFilter;
+use GeticRetailCrm\Service\TopRequestProcessor;
 use UnexpectedValueException;
 
 /**

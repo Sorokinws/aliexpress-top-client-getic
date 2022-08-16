@@ -7,9 +7,9 @@
  * @package  RetailCrm\Interfaces
  */
 
-namespace RetailCrm\Interfaces;
+namespace GeticRetailCrm\Interfaces;
 
-use RetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Request\BaseRequest;
 
 /**
  * Interface AuthenticatorInterface

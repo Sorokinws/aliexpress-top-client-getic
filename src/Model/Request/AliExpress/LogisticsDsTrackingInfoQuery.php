@@ -6,12 +6,12 @@
  * @package  RetailCrm\Model\Request\AliExpress
  */
 
-namespace RetailCrm\Model\Request\AliExpress;
+namespace GeticRetailCrm\Model\Request\AliExpress;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Request\BaseRequest;
 use Symfony\Component\Validator\Constraints as Assert;
-use RetailCrm\Model\Response\AliExpress\LogisticsDsTrackingInfoQueryResponse;
+use GeticRetailCrm\Model\Response\AliExpress\LogisticsDsTrackingInfoQueryResponse;
 
 /**
  * Class LogisticsDsTrackingInfoQuery

@@ -6,12 +6,12 @@
  * @package  RetailCrm\Model\Response\AliExpress\Result
  */
 
-namespace RetailCrm\Model\Response\AliExpress\Result;
+namespace GeticRetailCrm\Model\Response\AliExpress\Result;
 
-use RetailCrm\Model\Response\AliExpress\Result\Interfaces\ErrorInterface;
-use RetailCrm\Model\Response\AliExpress\Result\Traits\ErrorTrait;
+use GeticRetailCrm\Model\Response\AliExpress\Result\Interfaces\ErrorInterface;
+use GeticRetailCrm\Model\Response\AliExpress\Result\Traits\ErrorTrait;
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Response\AliExpress\Result\Traits\SuccessTrait;
+use GeticRetailCrm\Model\Response\AliExpress\Result\Traits\SuccessTrait;
 
 /**
  * Class SolutionOrderGetResponseResult

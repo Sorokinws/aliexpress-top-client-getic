@@ -6,7 +6,7 @@
  * @package  RetailCrm\Component
  */
 
-namespace RetailCrm\Component;
+namespace GeticRetailCrm\Component;
 
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 

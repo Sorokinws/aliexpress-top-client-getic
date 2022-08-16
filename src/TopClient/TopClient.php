@@ -6,7 +6,7 @@
  * @category TopClient
  * @package  RetailCrm\TopClient
  */
-namespace RetailCrm\TopClient;
+namespace GeticRetailCrm\TopClient;
 
 use JMS\Serializer\SerializerInterface;
 use Psr\Http\Client\ClientExceptionInterface;
@@ -14,23 +14,23 @@ use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
-use RetailCrm\Builder\AuthorizationUriBuilder;
-use RetailCrm\Component\Environment;
-use RetailCrm\Component\Exception\TopApiException;
-use RetailCrm\Component\Exception\TopClientException;
-use RetailCrm\Component\OAuthTokenFetcher;
-use RetailCrm\Component\ServiceLocator;
-use RetailCrm\Component\Storage\ProductSchemaStorage;
-use RetailCrm\Factory\ProductSchemaStorageFactory;
-use RetailCrm\Interfaces\AppDataInterface;
-use RetailCrm\Interfaces\AuthenticatorInterface;
-use RetailCrm\Interfaces\BuilderInterface;
-use RetailCrm\Interfaces\TopClientInterface;
-use RetailCrm\Interfaces\TopRequestFactoryInterface;
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Model\Response\BaseResponse;
-use RetailCrm\Model\Response\TopResponseInterface;
-use RetailCrm\Traits\ValidatorAwareTrait;
+use GeticRetailCrm\Builder\AuthorizationUriBuilder;
+use GeticRetailCrm\Component\Environment;
+use GeticRetailCrm\Component\Exception\TopApiException;
+use GeticRetailCrm\Component\Exception\TopClientException;
+use GeticRetailCrm\Component\OAuthTokenFetcher;
+use GeticRetailCrm\Component\ServiceLocator;
+use GeticRetailCrm\Component\Storage\ProductSchemaStorage;
+use GeticRetailCrm\Factory\ProductSchemaStorageFactory;
+use GeticRetailCrm\Interfaces\AppDataInterface;
+use GeticRetailCrm\Interfaces\AuthenticatorInterface;
+use GeticRetailCrm\Interfaces\BuilderInterface;
+use GeticRetailCrm\Interfaces\TopClientInterface;
+use GeticRetailCrm\Interfaces\TopRequestFactoryInterface;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Response\BaseResponse;
+use GeticRetailCrm\Model\Response\TopResponseInterface;
+use GeticRetailCrm\Traits\ValidatorAwareTrait;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**

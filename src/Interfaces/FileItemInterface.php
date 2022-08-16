@@ -7,7 +7,7 @@
  * @package  RetailCrm\Interfaces
  */
 
-namespace RetailCrm\Interfaces;
+namespace GeticRetailCrm\Interfaces;
 
 use Psr\Http\Message\StreamInterface;
 

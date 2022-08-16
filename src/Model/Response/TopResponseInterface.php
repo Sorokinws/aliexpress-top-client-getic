@@ -7,7 +7,7 @@
  * @package  RetailCrm\Model\Response
  */
 
-namespace RetailCrm\Model\Response;
+namespace GeticRetailCrm\Model\Response;
 
 /**
  * Interface TopResponseInterface

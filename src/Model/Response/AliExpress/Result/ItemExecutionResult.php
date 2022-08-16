@@ -6,10 +6,10 @@
  * @package  RetailCrm\Model\Response\AliExpress\Result
  */
 
-namespace RetailCrm\Model\Response\AliExpress\Result;
+namespace GeticRetailCrm\Model\Response\AliExpress\Result;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Response\AliExpress\Result\Traits\SuccessTrait;
+use GeticRetailCrm\Model\Response\AliExpress\Result\Traits\SuccessTrait;
 
 /**
  * Class ItemExecutionResult

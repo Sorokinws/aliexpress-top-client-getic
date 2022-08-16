@@ -6,10 +6,10 @@
  * @package  RetailCrm\Model\Response\AliExpress
  */
 
-namespace RetailCrm\Model\Response\AliExpress;
+namespace GeticRetailCrm\Model\Response\AliExpress;
 
-use RetailCrm\Model\Response\AliExpress\Data\PostproductRedefiningCategoryForecastResponseData;
-use RetailCrm\Model\Response\BaseResponse;
+use GeticRetailCrm\Model\Response\AliExpress\Data\PostproductRedefiningCategoryForecastResponseData;
+use GeticRetailCrm\Model\Response\BaseResponse;
 
 use JMS\Serializer\Annotation as JMS;
 

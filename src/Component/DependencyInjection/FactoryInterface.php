@@ -6,7 +6,7 @@
  * @category FactoryInterface
  * @package  RetailCrm\Component\DependencyInjection
  */
-namespace RetailCrm\Component\DependencyInjection;
+namespace GeticRetailCrm\Component\DependencyInjection;
 
 use Psr\Container\ContainerInterface;
 

@@ -6,7 +6,7 @@
  * @package  RetailCrm\Model\Request
  */
 
-namespace RetailCrm\Model\Request;
+namespace GeticRetailCrm\Model\Request;
 
 use JMS\Serializer\Annotation as JMS;
 

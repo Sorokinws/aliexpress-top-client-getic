@@ -6,7 +6,7 @@
  * @category ValidationException
  * @package  RetailCrm\Component\Exception
  */
-namespace RetailCrm\Component\Exception;
+namespace GeticRetailCrm\Component\Exception;
 
 use Symfony\Component\Validator\ConstraintViolationListInterface;
 use Throwable;

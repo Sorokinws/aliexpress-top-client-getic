@@ -6,12 +6,12 @@
  * @category TimestampProvider
  * @package  RetailCrm\Service
  */
-namespace RetailCrm\Service;
+namespace GeticRetailCrm\Service;
 
 use DateTime;
 use DateTimeZone;
-use RetailCrm\Interfaces\RequestTimestampProviderInterface;
-use RetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Interfaces\RequestTimestampProviderInterface;
+use GeticRetailCrm\Model\Request\BaseRequest;
 
 /**
  * Class TimestampProvider

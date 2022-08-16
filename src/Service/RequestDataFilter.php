@@ -6,9 +6,9 @@
  * @category RequestDataFilter
  * @package  RetailCrm\Service
  */
-namespace RetailCrm\Service;
+namespace GeticRetailCrm\Service;
 
-use RetailCrm\Interfaces\FileItemInterface;
+use GeticRetailCrm\Interfaces\FileItemInterface;
 
 /**
  * Class RequestDataFilter

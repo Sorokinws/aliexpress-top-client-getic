@@ -6,7 +6,7 @@
  * @category Environment
  * @package  RetailCrm\Component
  */
-namespace RetailCrm\Component;
+namespace GeticRetailCrm\Component;
 
 use InvalidArgumentException;
 

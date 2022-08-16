@@ -6,9 +6,9 @@
  * @category AppData
  * @package  RetailCrm\Component
  */
-namespace RetailCrm\Component;
+namespace GeticRetailCrm\Component;
 
-use RetailCrm\Interfaces\AppDataInterface;
+use GeticRetailCrm\Interfaces\AppDataInterface;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**

@@ -6,7 +6,7 @@
  * @category SerializerFactory
  * @package  RetailCrm\Factory
  */
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
 use JMS\Serializer\Annotation\PostDeserialize;
 use JMS\Serializer\EventDispatcher\EventDispatcher;
@@ -18,10 +18,10 @@ use JMS\Serializer\SerializerBuilder;
 use JMS\Serializer\SerializerInterface;
 use JMS\Serializer\Visitor\Factory\JsonSerializationVisitorFactory;
 use Psr\Container\ContainerInterface;
-use RetailCrm\Component\Constants;
-use RetailCrm\Component\JMS\EventSubscriber\TimezoneDeserializeSubscriber;
-use RetailCrm\Component\JMS\Factory\JsonDeserializationVisitorFactory;
-use RetailCrm\Interfaces\FactoryInterface;
+use GeticRetailCrm\Component\Constants;
+use GeticRetailCrm\Component\JMS\EventSubscriber\TimezoneDeserializeSubscriber;
+use GeticRetailCrm\Component\JMS\Factory\JsonDeserializationVisitorFactory;
+use GeticRetailCrm\Interfaces\FactoryInterface;
 use Symfony\Component\ExpressionLanguage\ExpressionLanguage;
 use JMS\Serializer\Expression\ExpressionEvaluator;
 

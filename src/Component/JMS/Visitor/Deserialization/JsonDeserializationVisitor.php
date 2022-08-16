@@ -6,7 +6,7 @@
  * @package  RetailCrm\Component\JMS\Visitor\Deserialization
  */
 
-namespace RetailCrm\Component\JMS\Visitor\Deserialization;
+namespace GeticRetailCrm\Component\JMS\Visitor\Deserialization;
 
 use JMS\Serializer\AbstractVisitor;
 use JMS\Serializer\Exception\LogicException;

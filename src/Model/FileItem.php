@@ -6,10 +6,10 @@
  * @category FileItem
  * @package  RetailCrm\Model
  */
-namespace RetailCrm\Model;
+namespace GeticRetailCrm\Model;
 
 use Psr\Http\Message\StreamInterface;
-use RetailCrm\Interfaces\FileItemInterface;
+use GeticRetailCrm\Interfaces\FileItemInterface;
 
 /**
  * Class FileItem

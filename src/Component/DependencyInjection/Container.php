@@ -6,7 +6,7 @@
  * @category Container
  * @package  RetailCrm\Component\DependencyInjection
  */
-namespace RetailCrm\Component\DependencyInjection;
+namespace GeticRetailCrm\Component\DependencyInjection;
 
 use Closure;
 use Psr\Container\ContainerExceptionInterface;
@@ -14,8 +14,8 @@ use Psr\Container\ContainerInterface;
 use Psr\Container\NotFoundExceptionInterface;
 use ReflectionClass;
 use ReflectionException;
-use RetailCrm\Component\DependencyInjection\Exception\ContainerException;
-use RetailCrm\Component\DependencyInjection\Exception\NotFoundException;
+use GeticRetailCrm\Component\DependencyInjection\Exception\ContainerException;
+use GeticRetailCrm\Component\DependencyInjection\Exception\NotFoundException;
 use Throwable;
 
 /**

@@ -6,12 +6,12 @@
  * @package  RetailCrm\Model\Request\AliExpress\Data
  */
 
-namespace RetailCrm\Model\Request\AliExpress\Data;
+namespace GeticRetailCrm\Model\Request\AliExpress\Data;
 
 use DateTime;
 use JMS\Serializer\Annotation as JMS;
 use Symfony\Component\Validator\Constraints as Assert;
-use RetailCrm\Component\Validator\Constraints as TopAssert;
+use GeticRetailCrm\Component\Validator\Constraints as TopAssert;
 
 /**
  * Class OrderQuery

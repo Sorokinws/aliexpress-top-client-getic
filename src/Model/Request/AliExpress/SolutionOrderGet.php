@@ -6,11 +6,11 @@
  * @package  RetailCrm\Model\Request\AliExpress
  */
 
-namespace RetailCrm\Model\Request\AliExpress;
+namespace GeticRetailCrm\Model\Request\AliExpress;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Model\Response\AliExpress\SolutionOrderGetResponse;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Response\AliExpress\SolutionOrderGetResponse;
 
 /**
  * Class SolutionOrderGet

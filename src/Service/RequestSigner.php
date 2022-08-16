@@ -6,12 +6,12 @@
  * @category RequestSigner
  * @package  RetailCrm\Service
  */
-namespace RetailCrm\Service;
+namespace GeticRetailCrm\Service;
 
-use RetailCrm\Component\Exception\NotImplementedException;
-use RetailCrm\Interfaces\AppDataInterface;
-use RetailCrm\Interfaces\RequestSignerInterface;
-use RetailCrm\Model\Enum\AvailableSignMethods;
+use GeticRetailCrm\Component\Exception\NotImplementedException;
+use GeticRetailCrm\Interfaces\AppDataInterface;
+use GeticRetailCrm\Interfaces\RequestSignerInterface;
+use GeticRetailCrm\Model\Enum\AvailableSignMethods;
 
 /**
  * Class RequestSigner

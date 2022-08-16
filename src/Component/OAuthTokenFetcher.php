@@ -6,7 +6,7 @@
  * @package  RetailCrm\Component
  */
 
-namespace RetailCrm\Component;
+namespace GeticRetailCrm\Component;
 
 use Exception;
 use JMS\Serializer\SerializerInterface;
@@ -17,10 +17,10 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UriFactoryInterface;
-use RetailCrm\Component\Exception\OAuthTokenFetcherException;
-use RetailCrm\Interfaces\AppDataInterface;
-use RetailCrm\Model\Request\OAuthTokenFetchRequest;
-use RetailCrm\Model\Response\OAuthTokenFetcherResponse;
+use GeticRetailCrm\Component\Exception\OAuthTokenFetcherException;
+use GeticRetailCrm\Interfaces\AppDataInterface;
+use GeticRetailCrm\Model\Request\OAuthTokenFetchRequest;
+use GeticRetailCrm\Model\Response\OAuthTokenFetcherResponse;
 
 /**
  * Class OAuthTokenFetcher
@@ -140,7 +140,7 @@ class OAuthTokenFetcher
                 $exception
             );
         }
-        
+
         return $this->serializer->deserialize(
             self::getBodyContents($response->getBody()),
             OAuthTokenFetcherResponse::class,

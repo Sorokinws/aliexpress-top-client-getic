@@ -6,7 +6,7 @@
  * @category NotFoundException
  * @package  RetailCrm\Component\DependencyInjection\Exception
  */
-namespace RetailCrm\Component\DependencyInjection\Exception;
+namespace GeticRetailCrm\Component\DependencyInjection\Exception;
 
 use Psr\Container\NotFoundExceptionInterface;
 use InvalidArgumentException;

@@ -6,7 +6,7 @@
  * @category NotImplementedException
  * @package  RetailCrm\Component\Exception
  */
-namespace RetailCrm\Component\Exception;
+namespace GeticRetailCrm\Component\Exception;
 
 /**
  * Class NotImplementedException

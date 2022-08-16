@@ -6,19 +6,19 @@
  * @package  RetailCrm\Component\Storage
  */
 
-namespace RetailCrm\Component\Storage;
+namespace GeticRetailCrm\Component\Storage;
 
 use JsonException;
 use Cache\Adapter\Common\CacheItem;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;
-use RetailCrm\Component\Exception\FactoryException;
-use RetailCrm\Component\Exception\TopApiException;
-use RetailCrm\Component\Exception\TopClientException;
-use RetailCrm\Component\Exception\ValidationException;
-use RetailCrm\Interfaces\TopClientInterface;
-use RetailCrm\Model\Request\AliExpress\SolutionProductSchemaGet;
-use RetailCrm\Model\Response\ErrorResponseBody;
+use GeticRetailCrm\Component\Exception\FactoryException;
+use GeticRetailCrm\Component\Exception\TopApiException;
+use GeticRetailCrm\Component\Exception\TopClientException;
+use GeticRetailCrm\Component\Exception\ValidationException;
+use GeticRetailCrm\Interfaces\TopClientInterface;
+use GeticRetailCrm\Model\Request\AliExpress\SolutionProductSchemaGet;
+use GeticRetailCrm\Model\Response\ErrorResponseBody;
 
 /**
  * Class ProductSchemaStorage

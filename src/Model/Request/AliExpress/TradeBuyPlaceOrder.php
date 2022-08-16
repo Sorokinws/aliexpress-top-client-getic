@@ -6,12 +6,12 @@
  * @package  RetailCrm\Model\Request\AliExpress
  */
 
-namespace RetailCrm\Model\Request\AliExpress;
+namespace GeticRetailCrm\Model\Request\AliExpress;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Model\Response\AliExpress\TradeBuyPlaceOrderResponse;
-use RetailCrm\Model\Request\AliExpress\Data\PlaceOrderRequest4OpenApiDto;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Response\AliExpress\TradeBuyPlaceOrderResponse;
+use GeticRetailCrm\Model\Request\AliExpress\Data\PlaceOrderRequest4OpenApiDto;
 
 /**
  * Class TradeBuyPlaceOrder

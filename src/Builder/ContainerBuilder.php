@@ -6,7 +6,7 @@
  * @category ContainerBuilder
  * @package  RetailCrm\Builder
  */
-namespace RetailCrm\Builder;
+namespace GeticRetailCrm\Builder;
 
 use Cache\Adapter\PHPArray\ArrayCachePool;
 use Http\Discovery\Psr17FactoryDiscovery;
@@ -19,23 +19,23 @@ use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\UriFactoryInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
-use RetailCrm\Component\Constants;
-use RetailCrm\Component\DependencyInjection\Container;
-use RetailCrm\Component\Environment;
-use RetailCrm\Component\ServiceLocator;
-use RetailCrm\Factory\FileItemFactory;
-use RetailCrm\Factory\OAuthTokenFetcherFactory;
-use RetailCrm\Factory\ProductSchemaStorageFactory;
-use RetailCrm\Factory\SerializerFactory;
-use RetailCrm\Factory\TopRequestFactory;
-use RetailCrm\Interfaces\BuilderInterface;
-use RetailCrm\Interfaces\FileItemFactoryInterface;
-use RetailCrm\Interfaces\RequestSignerInterface;
-use RetailCrm\Interfaces\RequestTimestampProviderInterface;
-use RetailCrm\Interfaces\TopRequestFactoryInterface;
-use RetailCrm\Service\RequestDataFilter;
-use RetailCrm\Service\RequestSigner;
-use RetailCrm\Service\RequestTimestampProvider;
+use GeticRetailCrm\Component\Constants;
+use GeticRetailCrm\Component\DependencyInjection\Container;
+use GeticRetailCrm\Component\Environment;
+use GeticRetailCrm\Component\ServiceLocator;
+use GeticRetailCrm\Factory\FileItemFactory;
+use GeticRetailCrm\Factory\OAuthTokenFetcherFactory;
+use GeticRetailCrm\Factory\ProductSchemaStorageFactory;
+use GeticRetailCrm\Factory\SerializerFactory;
+use GeticRetailCrm\Factory\TopRequestFactory;
+use GeticRetailCrm\Interfaces\BuilderInterface;
+use GeticRetailCrm\Interfaces\FileItemFactoryInterface;
+use GeticRetailCrm\Interfaces\RequestSignerInterface;
+use GeticRetailCrm\Interfaces\RequestTimestampProviderInterface;
+use GeticRetailCrm\Interfaces\TopRequestFactoryInterface;
+use GeticRetailCrm\Service\RequestDataFilter;
+use GeticRetailCrm\Service\RequestSigner;
+use GeticRetailCrm\Service\RequestTimestampProvider;
 use RuntimeException;
 use Symfony\Component\Validator\Validation;
 use Symfony\Component\Validator\Validator\TraceableValidator;

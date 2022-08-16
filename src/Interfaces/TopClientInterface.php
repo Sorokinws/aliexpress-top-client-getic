@@ -6,12 +6,12 @@
  * @category TopClientInterface
  * @package  RetailCrm\Interfaces
  */
-namespace RetailCrm\Interfaces;
+namespace GeticRetailCrm\Interfaces;
 
-use RetailCrm\Component\OAuthTokenFetcher;
-use RetailCrm\Component\ServiceLocator;
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Model\Response\TopResponseInterface;
+use GeticRetailCrm\Component\OAuthTokenFetcher;
+use GeticRetailCrm\Component\ServiceLocator;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Response\TopResponseInterface;
 
 /**
  * Class TopClientInterface

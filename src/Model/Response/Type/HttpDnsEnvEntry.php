@@ -6,7 +6,7 @@
  * @package  RetailCrm\Model\Response\Type
  */
 
-namespace RetailCrm\Model\Response\Type;
+namespace GeticRetailCrm\Model\Response\Type;
 
 use JMS\Serializer\Annotation as JMS;
 

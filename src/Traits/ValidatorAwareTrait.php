@@ -7,10 +7,10 @@
  * @package  RetailCrm\Traits
  */
 
-namespace RetailCrm\Traits;
+namespace GeticRetailCrm\Traits;
 
 use Symfony\Component\Validator\Constraints as Assert;
-use RetailCrm\Component\Exception\ValidationException;
+use GeticRetailCrm\Component\Exception\ValidationException;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 /**

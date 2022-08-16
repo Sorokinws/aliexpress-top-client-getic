@@ -6,7 +6,7 @@
  * @category Constants
  * @package  RetailCrm\Component
  */
-namespace RetailCrm\Component;
+namespace GeticRetailCrm\Component;
 
 /**
  * Class Constants

@@ -6,10 +6,10 @@
  * @package  RetailCrm\Model\Request\AliExpress
  */
 
-namespace RetailCrm\Model\Request\AliExpress;
+namespace GeticRetailCrm\Model\Request\AliExpress;
 
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Model\Response\AliExpress\SolutionMerchantProfileGetResponse;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Response\AliExpress\SolutionMerchantProfileGetResponse;
 
 /**
  * Class SolutionMerchantProfileGet

@@ -6,7 +6,7 @@
  * @package  RetailCrm\Model\Enum
  */
 
-namespace RetailCrm\Model\Enum;
+namespace GeticRetailCrm\Model\Enum;
 
 /**
  * Class FeedStatuses

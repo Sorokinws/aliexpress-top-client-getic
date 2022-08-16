@@ -6,11 +6,11 @@
  * @package  RetailCrm\Builder
  */
 
-namespace RetailCrm\Builder;
+namespace GeticRetailCrm\Builder;
 
 use BadMethodCallException;
-use RetailCrm\Component\AuthorizationUri;
-use RetailCrm\Interfaces\BuilderInterface;
+use GeticRetailCrm\Component\AuthorizationUri;
+use GeticRetailCrm\Interfaces\BuilderInterface;
 
 /**
  * Class AuthorizationUriBuilder

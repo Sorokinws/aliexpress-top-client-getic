@@ -6,7 +6,7 @@
  * @package  RetailCrm\Component\JMS\EventSubscriber
  */
 
-namespace RetailCrm\Component\JMS\EventSubscriber;
+namespace GeticRetailCrm\Component\JMS\EventSubscriber;
 
 use DateTime;
 use DateTimeInterface;

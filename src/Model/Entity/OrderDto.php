@@ -6,7 +6,7 @@
  * @package  RetailCrm\Model\Entity
  */
 
-namespace RetailCrm\Model\Entity;
+namespace GeticRetailCrm\Model\Entity;
 
 use DateTime;
 use JMS\Serializer\Annotation as JMS;

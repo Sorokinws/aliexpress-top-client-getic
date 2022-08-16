@@ -6,7 +6,7 @@
  * @package  RetailCrm\Model\Response\AliExpress\Result\Traits
  */
 
-namespace RetailCrm\Model\Response\AliExpress\Result\Traits;
+namespace GeticRetailCrm\Model\Response\AliExpress\Result\Traits;
 
 use JMS\Serializer\Annotation as JMS;
 

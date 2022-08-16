@@ -6,19 +6,19 @@
  * @category TopClientBuilder
  * @package  RetailCrm\Builder
  */
-namespace RetailCrm\Builder;
+namespace GeticRetailCrm\Builder;
 
-use RetailCrm\Component\Constants;
-use RetailCrm\Component\Environment;
-use RetailCrm\Component\ServiceLocator;
-use RetailCrm\Factory\ProductSchemaStorageFactory;
-use RetailCrm\Interfaces\AppDataInterface;
-use RetailCrm\Interfaces\AuthenticatorInterface;
-use RetailCrm\Interfaces\BuilderInterface;
-use RetailCrm\Interfaces\ContainerAwareInterface;
-use RetailCrm\Interfaces\TopRequestFactoryInterface;
-use RetailCrm\TopClient\TopClient;
-use RetailCrm\Traits\ContainerAwareTrait;
+use GeticRetailCrm\Component\Constants;
+use GeticRetailCrm\Component\Environment;
+use GeticRetailCrm\Component\ServiceLocator;
+use GeticRetailCrm\Factory\ProductSchemaStorageFactory;
+use GeticRetailCrm\Interfaces\AppDataInterface;
+use GeticRetailCrm\Interfaces\AuthenticatorInterface;
+use GeticRetailCrm\Interfaces\BuilderInterface;
+use GeticRetailCrm\Interfaces\ContainerAwareInterface;
+use GeticRetailCrm\Interfaces\TopRequestFactoryInterface;
+use GeticRetailCrm\TopClient\TopClient;
+use GeticRetailCrm\Traits\ContainerAwareTrait;
 
 /**
  * Class TopClientBuilder

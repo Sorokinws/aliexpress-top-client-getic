@@ -6,7 +6,7 @@
  * @category StdioLogger
  * @package  RetailCrm\Component\Logger
  */
-namespace RetailCrm\Component\Logger;
+namespace GeticRetailCrm\Component\Logger;
 
 /**
  * Class StdioLogger

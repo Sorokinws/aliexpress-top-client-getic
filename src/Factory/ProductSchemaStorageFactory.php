@@ -6,12 +6,12 @@
  * @package  RetailCrm\Factory
  */
 
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
 use Psr\Cache\CacheItemPoolInterface;
-use RetailCrm\Component\Storage\ProductSchemaStorage;
-use RetailCrm\Interfaces\FactoryInterface;
-use RetailCrm\Interfaces\TopClientInterface;
+use GeticRetailCrm\Component\Storage\ProductSchemaStorage;
+use GeticRetailCrm\Interfaces\FactoryInterface;
+use GeticRetailCrm\Interfaces\TopClientInterface;
 
 /**
  * Class ProductSchemaStorageFactory

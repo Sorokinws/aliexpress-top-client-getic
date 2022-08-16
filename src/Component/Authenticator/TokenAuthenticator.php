@@ -6,10 +6,10 @@
  * @package  RetailCrm\Component\Authenticator
  */
 
-namespace RetailCrm\Component\Authenticator;
+namespace GeticRetailCrm\Component\Authenticator;
 
-use RetailCrm\Interfaces\AuthenticatorInterface;
-use RetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Interfaces\AuthenticatorInterface;
+use GeticRetailCrm\Model\Request\BaseRequest;
 
 /**
  * Class TokenAuthenticator

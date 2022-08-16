@@ -7,7 +7,7 @@
  * @package  RetailCrm\Interfaces
  */
 
-namespace RetailCrm\Interfaces;
+namespace GeticRetailCrm\Interfaces;
 
 /**
  * Interface RequestSignerInterface

@@ -6,10 +6,10 @@
  * @category HttpDnsGetRequest
  * @package  RetailCrm\Model\Request\Taobao
  */
-namespace RetailCrm\Model\Request\Taobao;
+namespace GeticRetailCrm\Model\Request\Taobao;
 
-use RetailCrm\Model\Request\BaseRequest;
-use RetailCrm\Model\Response\Taobao\HttpDnsGetResponse;
+use GeticRetailCrm\Model\Request\BaseRequest;
+use GeticRetailCrm\Model\Response\Taobao\HttpDnsGetResponse;
 
 /**
  * Class HttpDnsGetRequest

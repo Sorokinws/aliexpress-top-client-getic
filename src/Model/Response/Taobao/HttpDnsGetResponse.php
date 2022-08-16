@@ -6,10 +6,10 @@
  * @category HttpDnsGetResponse
  * @package  RetailCrm\Model\Response\Taobao
  */
-namespace RetailCrm\Model\Response\Taobao;
+namespace GeticRetailCrm\Model\Response\Taobao;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Model\Response\BaseResponse;
+use GeticRetailCrm\Model\Response\BaseResponse;
 
 /**
  * Class HttpDnsGetResponse

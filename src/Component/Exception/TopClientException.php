@@ -6,7 +6,7 @@
  * @category TopClientException
  * @package  RetailCrm\Component\Exception
  */
-namespace RetailCrm\Component\Exception;
+namespace GeticRetailCrm\Component\Exception;
 
 use Exception;
 

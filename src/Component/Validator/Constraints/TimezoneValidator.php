@@ -6,7 +6,7 @@
  * @package  RetailCrm\Component\Validator\Constraints
  */
 
-namespace RetailCrm\Component\Validator\Constraints;
+namespace GeticRetailCrm\Component\Validator\Constraints;
 
 use DateTime;
 use Symfony\Component\Validator\Constraint;

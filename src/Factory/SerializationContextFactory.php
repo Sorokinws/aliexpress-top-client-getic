@@ -6,7 +6,7 @@
  * @category SerializationContextFactory
  * @package  RetailCrm\Factory
  */
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
 use JMS\Serializer\ContextFactory\SerializationContextFactoryInterface;
 use JMS\Serializer\SerializationContext;

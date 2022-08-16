@@ -6,12 +6,12 @@
  * @category FileItemFactory
  * @package  RetailCrm\Factory
  */
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
 use Psr\Http\Message\StreamFactoryInterface;
-use RetailCrm\Interfaces\FileItemFactoryInterface;
-use RetailCrm\Interfaces\FileItemInterface;
-use RetailCrm\Model\FileItem;
+use GeticRetailCrm\Interfaces\FileItemFactoryInterface;
+use GeticRetailCrm\Interfaces\FileItemInterface;
+use GeticRetailCrm\Model\FileItem;
 
 /**
  * Class FileItemFactory

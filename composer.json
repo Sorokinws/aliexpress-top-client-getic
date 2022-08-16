@@ -1,8 +1,8 @@
 {
-    "name": "retailcrm/aliexpress-top-client",
+    "name": "getic-retailcrm/aliexpress-top-client",
     "description": "API client implementation for AliExpress TOP.",
     "type": "library",
-    "keywords": ["API", "RetailCRM", "REST", "AliExpress"],
+    "keywords": ["API", "RetailCRM", "REST", "AliExpress", "Getic"],
     "homepage": "http://www.retailcrm.pro/",
     "authors": [
         {
@@ -14,7 +14,7 @@
         "email": "support@retailcrm.pro"
     },
     "autoload": {
-        "psr-4": { "RetailCrm\\": "src/" }
+        "psr-4": { "GeticRetailCrm\\": "src/" }
     },
     "require": {
         "php": ">=7.3.0",

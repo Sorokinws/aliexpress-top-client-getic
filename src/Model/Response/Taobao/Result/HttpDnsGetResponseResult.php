@@ -6,7 +6,7 @@
  * @category HttpDnsGetResponseResult
  * @package  RetailCrm\Model\Response\Taobao\Result
  */
-namespace RetailCrm\Model\Response\Taobao\Result;
+namespace GeticRetailCrm\Model\Response\Taobao\Result;
 
 use JMS\Serializer\Annotation as JMS;
 

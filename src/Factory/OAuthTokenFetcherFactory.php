@@ -6,15 +6,15 @@
  * @package  RetailCrm\Factory
  */
 
-namespace RetailCrm\Factory;
+namespace GeticRetailCrm\Factory;
 
 use JMS\Serializer\SerializerInterface;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\UriFactoryInterface;
-use RetailCrm\Component\OAuthTokenFetcher;
-use RetailCrm\Interfaces\ParametrizedFactoryInterface;
+use GeticRetailCrm\Component\OAuthTokenFetcher;
+use GeticRetailCrm\Interfaces\ParametrizedFactoryInterface;
 
 /**
  * Class OAuthTokenFetcherFactory

@@ -6,14 +6,14 @@
  * @category BaseRequest
  * @package  RetailCrm\Model\Request
  */
-namespace RetailCrm\Model\Request;
+namespace GeticRetailCrm\Model\Request;
 
 use JMS\Serializer\Annotation as JMS;
-use RetailCrm\Component\Constants;
-use RetailCrm\Model\Enum\AvailableResponseFormats;
-use RetailCrm\Model\Enum\AvailableSignMethods;
+use GeticRetailCrm\Component\Constants;
+use GeticRetailCrm\Model\Enum\AvailableResponseFormats;
+use GeticRetailCrm\Model\Enum\AvailableSignMethods;
 use Symfony\Component\Validator\Constraints as Assert;
-use RetailCrm\Component\Validator\Constraints as TopAssert;
+use GeticRetailCrm\Component\Validator\Constraints as TopAssert;
 
 /**
  * Class BaseRequest

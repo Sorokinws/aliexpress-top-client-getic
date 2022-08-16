@@ -6,7 +6,7 @@
  * @category ErrorResponseBody
  * @package  RetailCrm\Model\Response
  */
-namespace RetailCrm\Model\Response;
+namespace GeticRetailCrm\Model\Response;
 
 use JMS\Serializer\Annotation as JMS;
 

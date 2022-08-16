@@ -6,10 +6,10 @@
  * @category TopApiException
  * @package  RetailCrm\Component\Exception
  */
-namespace RetailCrm\Component\Exception;
+namespace GeticRetailCrm\Component\Exception;
 
 use Exception;
-use RetailCrm\Model\Response\ErrorResponseBody;
+use GeticRetailCrm\Model\Response\ErrorResponseBody;
 use Throwable;
 
 /**

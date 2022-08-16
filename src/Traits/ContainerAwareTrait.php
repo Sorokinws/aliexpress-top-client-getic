@@ -7,7 +7,7 @@
  * @package  RetailCrm\Traits
  */
 
-namespace RetailCrm\Traits;
+namespace GeticRetailCrm\Traits;
 
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Validator\Constraints as Assert;
