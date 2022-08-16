@@ -21,7 +21,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "psr/log": "^1.1",
-        "doctrine/cache": "^1.10",
+        "doctrine/cache": "^1.10 || ^2.0",
         "jms/serializer": "^3.9",
         "symfony/validator": "^4.1|^5.1",
         "doctrine/annotations": "^1.10",
